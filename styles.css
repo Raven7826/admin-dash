@@ -16,6 +16,7 @@
 .grid{
     display: grid;
     grid-template-columns: 20% 80%;
+
 }
 
 h2{
@@ -39,6 +40,7 @@ h2{
     flex-direction: row;
     color: white;
     margin: 20px 20px;
+
 }
 
 img {
@@ -62,4 +64,85 @@ img {
     color: white;
     font-weight: bold;
 }
+.main{
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    background-color: #ded7d7;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.navabar,.left{
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 20px;
+}
+.form-input{
+    width: 500px;
+    background-color: #ded7d7;
+    border-radius: 10px;
+    border: 1px solid #ded7d7;
+    margin-left: 20px;
+    margin-right: 180px;
+}
+.avatar{
+    margin: 10px;
+}
+.welcome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: -10px 20px;
+    padding-bottom: 5px;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    width: 30%;
+}
+.btn{
+    background-color: #0ca2e5;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border: 1px #0ca2e5 solid;
+    border-radius: 25px;
+    outline: 1px solid grey;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 
+.cards-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h4{
+  display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+
+
+}
+.icons{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+
+}
