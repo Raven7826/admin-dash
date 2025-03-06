@@ -17,20 +17,19 @@
     display: grid;
     grid-template-columns: 20% 80%;
 
+
 }
 
 h2{
     margin-left: 20px;
 }
 .sidebar {
-    background-color: #0ca2e5;
-    color: white;
+    background-color: rgba(37, 33, 33, 0.86);
+    color: chartreuse;
     height: 100vh;
-    outline: gray 3px solid;
-
 }
 .main {
-    background-color: white;
+    background-color: lightgrey;
     height: 100vh;
 }
 .logo-text {
@@ -38,7 +37,7 @@ h2{
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
-    color: white;
+    color: limegreen;
     margin: 20px 20px;
 
 }
@@ -47,7 +46,7 @@ img {
     width: 60px;
 }
 .icon-text {
-    color: white;
+    color: limegreen;
     font-weight: bold;
     display: flex;
     flex-direction: row;
@@ -65,18 +64,18 @@ img {
     font-weight: bold;
 }
 .main{
-    background-color: white;
+    background-color: chartreuse;
     height: 100vh;
     display: grid;
     grid-template-rows: 20% 80%;
 }
 .header{
-    background-color: white;
+    background-color: #3f3a3a;
     display: flex;
     flex-direction: column;
 }
 .content{
-    background-color: #ded7d7;
+    background-color: #736e6e;
     display: grid;
     grid-template-columns: 70% 30%;
 }
@@ -92,7 +91,7 @@ display: flex;
     border-radius: 10px;
     border: 1px solid #ded7d7;
     margin-left: 20px;
-    margin-right: 180px;
+    margin-right: 200px;
 }
 .avatar{
     margin: 10px;
@@ -114,8 +113,8 @@ display: flex;
     width: 30%;
 }
 .btn{
-    background-color: #0ca2e5;
-    color: white;
+    background-color: #05f105;
+    color: grey;
     width: 70px;
     height: 30px;
     border: 1px #0ca2e5 solid;
@@ -126,23 +125,84 @@ display: flex;
     display: grid;
     grid-template-columns: 50% 50%;
 }
-
-.cards-left{
+.card{
+    background-color: white;
+    border-left: 2px solid chartreuse;
+    border-radius: 10px;
+    height: 125px;
+    width: 80%;
+    margin: 30px 0;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-h4{
-  display: flex;
-    flex-direction: row;
-    margin-left: 25px;
-
+    justify-content: center;
+    align-items: flex-start;
 
 }
+
+
+
+
 .icons{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: flex;
     flex-direction: row;
 
+    align-items: center;
+    margin-left: 80%;
+}
+.card p{
+    font-size: 16px;
+    color: grey;
+}
+h4{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.annc h4{
+    margin-left: 20px;
+    padding: 8px;
+}
+.annc-trend{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.annc-card, .trend-card{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.annc-text{
+    padding: 5px 10px;
+}
+.annc-text, .trend-text h6{
+    font-size: 16px;
+}
+
+.annc-text, .trend-text p{
+    font-size: 14px;
+    color: #3a3737;
+}
+.divider{
+    border: 1px solid #343030;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+.trend-card{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.trend-text{
+    margin-left: 20px;
 }
